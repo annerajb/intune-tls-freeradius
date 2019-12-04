@@ -1,0 +1,13 @@
+#DEFAULT        NAS-Port-Type == Wireless-802.11
+#               Tunnel-Medium-Type = 6,
+#               Tunnel-Private-Group-ID = "10",
+#               Tunnel-Type = 13
+developer-intune-eap NAS-Port-Type == Wireless-802.11
+               Tunnel-Type = 13,
+               Tunnel-Medium-Type = 6,
+               Tunnel-Private-Group-ID = "10"
+#bob Cleartext-Password := "hello"
+#        Tunnel-Type = 13,
+#        Tunnel-Medium-Type = 6,
+#        Tunnel-Private-Group-ID = "10"
+
