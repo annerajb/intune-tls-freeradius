@@ -1,3 +1,4 @@
+This is a Dockerfile that starts a freeradius server configured for doing EAP-TLS with the provided certificates.
 
 REMEMBER TO REPLACE ALL CERTIFICATES UNDER THE raddb/certs folder with your real certificates
 1. Download your CA private key to the raddb/certs folder and fill out all the empty files 
