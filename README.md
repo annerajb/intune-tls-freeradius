@@ -1,5 +1,6 @@
 This is a Dockerfile that starts a freeradius server configured for doing EAP-TLS with the provided certificates.
-
+TODO: test if we can remove the private key of the CA and this still works. 
+   This will require to generate the CSR by hand instead of using make  
 REMEMBER TO REPLACE ALL CERTIFICATES UNDER THE raddb/certs folder with your real certificates
 1. Download your CA private key to the raddb/certs folder and fill out all the empty files 
 2. Run the make server script inside the raddb/certs folder inside the live container 
